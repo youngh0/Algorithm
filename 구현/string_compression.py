@@ -5,7 +5,6 @@ def solution(s):
         standard = s[:step]
         # print(standard)
         count = 1
-
         result = ""
 
         for i in range(step, len(s), step):
