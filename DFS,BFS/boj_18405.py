@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/18405
+
 from collections import deque
 
 n, k = map(int,input().split())
@@ -22,10 +24,7 @@ dy = [0,0,-1,1]
 
 while q:
     virus_num, time, x, y = q.popleft()
-
-
     if time == s:
-
         break
 
     for i in range(4):
